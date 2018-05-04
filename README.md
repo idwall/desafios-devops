@@ -18,6 +18,13 @@ Provisionar um **Proof-of-concept** (POC) que implemente aplicação de forma au
 ## Como entregar o desafio:
 Você deve criar um repositório para este projeto e fazer o push no seu próprio repositório e enviar o link como resposta à este teste junto às especificações da máquina que deve ser utilizada para a execução, pois iremos provisionar a mesma exata configuração para rodar o teste **:)**
 
+**Por exemplo:**
+1. Iremos fazer um clone do seu projeto em uma máquina com as mesmas especificações sugeridas.
+2. Executaremos o script de provisionamento.
+3. Criaremos um DNS e URL - legada-sa.com - apontando para o cluster kubernetes provisionado.
+4. Acessando a URL - legada-sa.com - esperamos ver a tela de configuração do Wordpress.
+
+
 Fique à vontade para adicionar qualquer tipo de conteúdo que julgue útil ao projeto, tal como alterar/acrescentar um **README** com instruções de como executá-lo e dependências necessárias para tal. Também prezamos feedbacks no mesmo sobre a descrição e motivações para a resolução adotada ao projeto.
 
 **Obs.** Não é necessário automatizar a instalação do Wordpress, a mesma será feita na execução do teste para validar a conectividade com o banco
