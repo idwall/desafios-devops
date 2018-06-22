@@ -13,7 +13,7 @@ Provisionar um **Proof-of-concept** (POC) que implemente aplicação de forma au
 - A aplicação deve responder à URL legada-sa.com
 - Podem ser utilizados containers/charts públicos das duas ferramentas
 - O candidato tem liberdade para utilizar as ferramentas que melhor achar interessante para a codificação do provisionamento da aplicação.
-- Boas práticas serão analisadas
+- Boas práticas de projeto e segurança serão analisadas tais como um ambiente de produção
 
 ## Como entregar o desafio:
 Você deve criar um repositório para este projeto e fazer o push no seu próprio repositório e enviar o link como resposta à este teste junto às especificações da máquina que deve ser utilizada para a execução, pois iremos provisionar a mesma exata configuração para rodar o teste **:)**
