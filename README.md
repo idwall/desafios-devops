@@ -1,30 +1,29 @@
-## Desafio Técnico: Infra-as-code
+# Desafios IDwall
 
-Você está encarregado de explorar a viabilidade do conceito **Infra-as-code** da cultura DevOps dentro da **Legada S.A**. A Legada, apesar de líder no mercado dentro do seu segmento, ainda possuí toda sua infraestrutura configurada manualmente, provisionando seus servidores diretamente pela a interface gráfica de seu _provider_. 
+Aqui estão os desafios para a primeira fase de testes de candidatos da IDwall para às vagas de **Site Reliability Engineer / DevOps**.
 
-Apesar desta metodologia ter funcionado durante todos estes anos, a Legada S.A se vê agora na necessidade de automatizar o provisionamento de seus servidores de forma mais ágil, devido a uma imensa gama de seus clientes estarem necessitando da aplicação instalada _on-premises_ em servidores remotos.
+Não há diferença de testes para diferentes níveis de profissionais, porém o teste será avaliado com diferentes critérios, dependendo do perfil da vaga.
 
-### Objetivo:
-Provisionar um **Proof-of-concept** (POC) que implemente aplicação de forma automática com apenas **uma linha de comando**
+1. [Terraform/IaC](https://github.com/idwall/desafios-devops/tree/master/terraform)
+2. [Kubernetes](https://github.com/idwall/desafios-devops/tree/master/kubernetes)
 
-### Instruções e FAQ:
-- O provisionamento deve ser feito com a criação de um cluster de node único em Kubernetes
-- A aplicação a ser implementada é um Wordpress junto de seu respectivo banco MySQL.
-- A aplicação deve responder à URL legada-sa.com
-- Podem ser utilizados containers/charts públicos das duas ferramentas
-- O candidato tem liberdade para utilizar as ferramentas que melhor achar interessante para a codificação do provisionamento da aplicação.
-- Boas práticas de projeto e segurança serão analisadas tais como um ambiente de produção
+## Como entregar estes desafios
+Você deve realizar o _**fork**_ este projeto e fazer o **_push_** no seu próprio repositório e enviar o link como resposta ao recrutador que lhe enviou o teste, junto com seu LinkedIn atualizado.
 
-## Como entregar o desafio:
-Você deve criar um repositório para este projeto e fazer o push no seu próprio repositório e enviar o link como resposta à este teste junto às especificações da máquina que deve ser utilizada para a execução, pois iremos provisionar a mesma exata configuração para rodar o teste **:)**
+A implementação deve ficar na pasta correspondente ao desafio. Fique à vontade para adicionar qualquer tipo de conteúdo que julgue útil ao projeto, alterar/acrescentar um README com instruções de como executá-lo, etc.
 
-**Por exemplo:**
-1. Iremos fazer um clone do seu projeto em uma máquina com as mesmas especificações sugeridas.
-2. Executaremos o script de provisionamento.
-3. Criaremos um DNS e URL - legada-sa.com - apontando para o cluster kubernetes provisionado.
-4. Acessando a URL - legada-sa.com - esperamos ver a tela de configuração do Wordpress.
+**Obs.**:
+- Você não deve fazer um Pull Request para este projeto!
+
+### Extras
+
+- Descreva o processo de resolução dos desafios;
+- Descreva como utilizar a sua solução;
+- Sempre considerar melhores práticas como se fosse um ambiente de produção;
 
 
-Fique à vontade para adicionar qualquer tipo de conteúdo que julgue útil ao projeto, tal como alterar/acrescentar um **README** com instruções de como executá-lo e dependências necessárias para tal. Também prezamos feedbacks no mesmo sobre a descrição e motivações para a resolução adotada ao projeto.
+## Carreira IDwall
 
-**Obs.** Não é necessário automatizar a instalação do Wordpress, a mesma será feita na execução do teste para validar a conectividade com o banco
+Caso queira mais detalhes de como trabalhamos, quais são nossos valores e ideais, confira a página [Carreira IDwall](https://idwall.co/carreira) e mesmo que seu perfil não esteja listado nas vagas em aberto, lhe encorajamos a mandar seu CV para jobs@idwall.co! Valorizamos bons profissionais sempre e gostamos de manter contato com gente boa.
+
+Boas implementações! 

@@ -1,0 +1,14 @@
+
+{
+  "name": "desafio-kubernetes",
+  "version": "1.0.0",
+  "description": "Desafio Kubernetes",
+  "main": "app.js",
+  "repository": "",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
