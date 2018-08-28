@@ -7,7 +7,7 @@ Aqui estão os desafios para a primeira fase de testes de candidatos da IDwall p
 
 Não há diferença de testes para diferentes níveis de profissionais, porém ambos os testes serão avaliados com diferentes critérios, dependendo do perfil da vaga.
 
-Vale reforçar, que o desafio contempla os testes de **Terraform/IaC** e **Kubernetes**.
+Vale reforçar, que a solução deve contemplar os testes de **Terraform/IaC** e **Kubernetes**.
 
 
 ## Como entregar estes desafios
