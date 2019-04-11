@@ -54,7 +54,9 @@ Um "perfil" será criado com o nome **default**, que é o mesmo nome que o terra
 
 ## Execução
 
-Após realizar o clone do projeto, entre no diretório **terraform/idwall_instance** e execute o comando _terraform init_ para que os plugins utilizados sejam baixados. Em seguida execute _terraform plan_ e um plano de de tudo que será criado, será exibido. Por fim execute _terraform apply_ para executar a criação da app, para isto, será necessário confirmar a criação, digitando _yes_ e incluir as informações de IP que terá acesso via _SSH_ e a [região](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html) da AWS que serão criados os recursos.
+Após realizar o clone do projeto, entre no diretório [terraform/idwall_instance](https://github.com/aka-cafu/desafios-devops/tree/master/terraform/idwall_instance) e execute o comando _terraform init_ para que os plugins utilizados sejam baixados. Em seguida execute _terraform plan_ e um plano de de tudo que será criado, será exibido. Por fim execute _terraform apply_ para executar a criação da app, para isto, será necessário confirmar a criação, digitando _yes_ e incluir as informações de IP que terá acesso via _SSH_ e a [região](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html) da AWS que serão criados os recursos.
+
+Ao final, pode ser utilizado o comando _curl_ para verificar que a página do apache está respondendo, ou acessando via navegador o endereço ip que será exibido no [output](https://github.com/aka-cafu/desafios-devops/tree/master/terraform/idwall_instance) do terraform.
 
 ![](http://i.imgur.com/77lLCLZ.gif)
 
