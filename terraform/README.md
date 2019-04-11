@@ -56,7 +56,7 @@ Um "perfil" será criado com o nome **default**, que é o mesmo nome que o terra
 
 Após realizar o clone do projeto, entre no diretório **terraform/idwall_instance** e execute o comando _terraform init_ para que os plugins utilizados sejam baixados. Em seguida execute _terraform plan_ e um plano de de tudo que será criado, será exibido. Por fim execute _terraform apply_ para executar a criação da app, para isto, será necessário confirmar a criação, digitando _yes_ e incluir as informações de IP que terá acesso via _SSH_ e a [região](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html) da AWS que serão criados os recursos.
 
-![](https://asciinema.org/a/0kgIsJ1OLfSiGuUTDrOX602Ny)
+![](http://i.imgur.com/77lLCLZ.gif)
 
 
 
