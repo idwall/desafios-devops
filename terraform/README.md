@@ -60,7 +60,6 @@ Ao final, pode ser utilizado o comando _curl_ para verificar que a página do ap
 
 ![](https://i.imgur.com/77lLCLZ.gif)
 
-
 ## Notas
 
 Gostaria de deixar meu agradecimento à equipe da Idwall, pela oportunidade! :)
