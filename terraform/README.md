@@ -59,7 +59,7 @@ Após realizar o clone do projeto, entre no diretório [terraform/idwall_instanc
 Ao final, pode ser utilizado o comando _curl_ para verificar que a página do apache está respondendo, ou acessando via navegador o endereço ip que será exibido no [output](https://github.com/aka-cafu/desafios-devops/tree/master/terraform/idwall_instance) do terraform.
 
 
--![](https://i.imgur.com/77lLCLZ.gif)
+![](https://i.imgur.com/D4tmXQV.gif)
 
 ## Notas
 
